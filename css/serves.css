@@ -1,0 +1,21 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* navbaer-section */
+.logo{
+    width: 80px;
+}
+.nav-navigetion{
+    padding-left: 700px;
+}
+@media screen and(max-width:600px) {
+    .conter-2{
+        margin-top: 100px;
+    }
+    .nav-div{
+            margin-left: 0px;
+    }
+}

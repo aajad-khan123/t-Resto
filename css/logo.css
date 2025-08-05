@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* navbaer-section */
+.logo{
+    width: 80px;
+}
+.nav-div ul li a{
+    color: black;
+}
+/* restorent-section */
+.restorent-img{
+    height: 250px; 
+    width: 300px;
+}
+.restorent-img-2{
+    width: 300px;
+    height: 250px;
+}
+.restorent-img-3{
+    width: 300px;
+    height: 250px;
+}
+ .section-2{
+    margin-top: 5px;
+ }
+
+ .items{
+    text-align: center;
+ }
+/* .section-8 */
+.section-8{
+    font-size: large;
+    border: 0.5px solid black;
+    border-radius: initial;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    height: 50px;
+    
+}
+.slider-pera{
+    font-size: xx-large;
+}
+.section-8-div{
+    margin-top: 10px;
+}
+.section-8-anchor{
+    color: black;
+    text-decoration: none;
+}
+.anchor-pera{
+    margin-top: 7px;
+}
+
+/* footer */
+.footer{
+    margin-top: 60px;
+}
+.conter-1{
+    background-color: rgba(135, 138, 141, 0.75);
+    height: 100px;
+    align-items: center;
+}
+.conter-2{
+    background-color:black;
+    height: 300px;
+    color: white;
+}
+.footer-h2{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.footer-img-1{
+    width: 290px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.footer-img{
+    width: 190PX;
+}
+.footer-conternar{
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width:900px) {
+   .serch{
+      width: 340px;
+   }
+   .slider-pera{
+    font-size: 1.2rem;
+   }
+   .items{
+    width: 50%;
+   }
+   .items p{
+    font-size: 0.8rem;
+   }
+   .items{
+    text-align: center;
+ }
+    .conter-2{
+    height: 800px;
+    }
+     .conter-1-div{
+        display: flex;
+      width: 50px;
+      padding-bottom: 200px;
+     }
+    .conter-1{
+        display: flexbox;
+    }
+    .footer-h2{
+       visibility: hidden;
+    }
+    .footer-img-1{
+        width: 200px;
+        
+    }
+    .section-8-anchor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+        top: 5px;
+      }
+    
+    .foter-items{
+        margin-top: 300px;
+    }
+
+    .footer-img-1{
+        display: ;
+        width: 180px;
+         margin-top: -620px;
+      }
+
+
+    .items{
+        width: 30%;
+    }
+
+
+
+}
